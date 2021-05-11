@@ -1,7 +1,7 @@
 
   <div class="blocs">
 <?php foreach($blocs as $bloc): ?>
-    <div class="bloc" style="background:#4287f5;">
+    <div class="bloc" style="background:<?= $bloc['color'] ?>;">
       <h3 post-title><?= $bloc['title'];?></h3>
       <p class="description"><?= $bloc['description'];?></p>
       <p class="content"><?= $bloc['content'];?></p>

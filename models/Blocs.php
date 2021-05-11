@@ -49,7 +49,7 @@ function deleteBloc($blocId) {
             'bloc_id' => $blocId,
             'new_summary' => $data['description'],
             'new_content' => $data['content'],
-            'new_color' => $data['color']
+            'new_color' => $data['bg_color']
         ]
     );
 }
