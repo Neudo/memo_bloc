@@ -1,1 +1,1 @@
-PAGE 404, revenir en lieu sûre ! => <a href="index.php"></a>
+PAGE 404   => <a href="index.php"> revenir en lieu sûre !</a>

@@ -73,12 +73,12 @@ if($action == 'delete') {
 
           if($updateResult == true) {
             $_SESSION['message'] = " <div class='message'> Bloc bien mise à jour ! </div>";
-            header('Location: index.php?page=posts&action=list');
+            header('Location: index.php');
             exit;
           }
           else {
             $_SESSION['error'] = "Impossible d'enregristrer la modification ...";
-            header('Location: index.php?page=posts&action=list');
+            header('Location: index.php');
           }
       }
     }

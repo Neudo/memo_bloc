@@ -47,7 +47,7 @@ function deleteBloc($blocId) {
         [
             'new_title' => $data['title'],
             'bloc_id' => $blocId,
-            'new_summary' => $data['description'],
+            'new_description' => $data['description'],
             'new_content' => $data['content'],
             'new_color' => $data['bg_color']
         ]
