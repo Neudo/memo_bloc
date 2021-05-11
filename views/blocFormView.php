@@ -26,5 +26,3 @@
 
     <button>Sauvegarder</button>
 </form>
-
-<?php var_dump($bloc); ?>

@@ -48,14 +48,16 @@ if($action == 'delete') {
 }
 
   if($action == 'edit') {
+    $blocId = $_GET['id'];
+    $selectedBloc = getBloc($blocId);
+
+
 
     if(!empty($_POST)) {
       $title = $_POST['title'];
       $description = $_POST['description'];
       $content = $_POST['content'];
       $color = $_POST['bg_color'];
-      $blocId = $_GET['id'];
-      $selectedBloc = getBloc($blocId);
 
 
       if(empty($title)) {
