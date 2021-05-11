@@ -52,7 +52,6 @@ if($action == 'delete') {
     $selectedBloc = getBloc($blocId);
 
 
-
     if(!empty($_POST)) {
       $title = $_POST['title'];
       $description = $_POST['description'];
@@ -67,6 +66,7 @@ if($action == 'delete') {
         $errors[] = 'Le contenue est obligatoire !';
       }
 
+      
       if(empty($errors)) {
 
           $updateResult = updateBloc($_GET['id'], $_POST);

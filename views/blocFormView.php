@@ -22,7 +22,5 @@
     <input type="text" name="bg_color" id="bg_color" value="<?= isset($selectedBloc) ? $selectedBloc['color']:($color ??'#ffff88'); ?>"> <br>
     <p>Les champs * sont obligatoires</p> <br>
 
-
-
     <button>Sauvegarder</button>
 </form>
